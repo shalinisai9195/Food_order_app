@@ -21,7 +21,7 @@ const FoodDetails = () => {
         }
     })
       const data = await res.json()
-      console.log(data)
+      //console.log(data)
       setFoodDetails(data)
     }
 
@@ -30,7 +30,8 @@ const FoodDetails = () => {
 
   const changeQuantity = (command) =>{
        if(command === 'dec'){
-          if(quantity === 1) return setQuantity(prev => prev - 1)
+          if(quantity === 1) return 
+          setQuantity(prev => prev - 1)
        }else if(command === 'inc'){
            setQuantity(prev => prev + 1)
        }

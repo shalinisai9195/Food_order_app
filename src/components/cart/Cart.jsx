@@ -17,7 +17,7 @@ const Cart = () => {
      dispatch(removeProduct({_id: id}))
   }
 
-  const handleOrder = ()=>{
+  const handleOrder = () =>{
      if(products.length > 0){
       navigate('/checkout')
      }
@@ -30,10 +30,10 @@ const Cart = () => {
              {products.length > 0 ? products.map((product) => (
             <div key={product._id} className={classes.product}>
                <div className={classes.closeBtn} onClick={() => handleRemoveProducts(product._id)}><AiOutlineClose/></div>
-               <img src={`https://order-create-food-backend.onrender.com/images/${product.img}`} className={classes.img} alt=''/>
-               <div className={classes.productData}>
-                <h3 className={classes.title}>{product.title}</h3>
-                <div className={classes.productAndQuantity}>
+                 <div className={classes.productData}>
+                 <img src={`https://order-create-food-backend.onrender.com/images/${product.img}`} className={classes.img} alt=''/>
+                    <h3 className={classes.title}>{product.title}</h3>
+                 <div className={classes.productAndQuantity}>
                   <span className={classes.quantity}>{product.quantity} x </span>
                   <span className={classes.price}><span>$</span> {product.price} </span>
                 </div>
