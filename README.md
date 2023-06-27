@@ -1,3 +1,19 @@
+# Guide for how to start Explore this App.
+
+STEP 1: First create an account, clicking on "Sign-up".
+        Ex: username : John, Email: john2244@outlook.com, password: Admin@123.
+        
+STEP 2: Once, created a account they will allow to, Order the Foods.
+
+STEP 3: select food like(pizza,burger,pasta..), select the quantity as too.
+
+STEP 4: Add to selected items into CART.
+
+STEP 5: Finally placed your Order.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
