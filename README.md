@@ -1,7 +1,7 @@
 # Guide for how to start Explore this App.
 
 STEP 1: First create an account, clicking on "Sign-up".
-        Ex: username : John, Email: john2244@outlook.com, password: Admin@123.
+        Ex: username : John, Email: john2244@outlook.com, password: Admin@123. Email: januram123@gmail.com, password: Januram1234#
         
 STEP 2: Once, created a account they will allow to, Order the Foods.
 
